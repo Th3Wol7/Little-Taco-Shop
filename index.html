@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Tyrien Gilpin" />
+  <meta name="description" content="Taco Project page for learning HTML" />
+  <title>The Little Taco Shop</title>
+  <link rel="icon" href="img/taco-icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to The Little Taco Shop</h1>
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li><a href="#about">About LTS</a></li>
+        <li><a href="#menu">Our Menu</a></li>
+        <li><a href="hours.html">Opening Hours</a></li>
+        <li><a href="#contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section>
+      <img src="img/table-set.png" alt="LTS Taco Meal" title="Taco meal served to guests." width="300" height="250" />
+      <figure>
+        <p>
+        <figcaption>Tacos and a drink</figcaption>
+        </p>
+      </figure>
+    </section>
+  </header>
+
+  <hr />
+
+  <main>
+    <article id="about">
+      <section>
+        <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+        <p>
+          <abbr title="The Little Taco Shop">LTS</abbr> was founded in 2024.
+          Our Shop was built from a <strong>love of tacos</strong>. We hope our shop
+          adds a unique and interesting place to our little town.
+        </p>
+      </section>
+      <br />
+      <section>
+        <h3>Taco Trivia</h3>
+        <aside>
+          <details>
+            <summary>
+              When did tacos first appear in the United States?
+            </summary>
+            <p>
+              Jeffery M. Pilcher, taco historian and professor of history at
+              the University of Minnesota, says the earliest mention of tacos
+              in the United States are in a newspaper from 1905. <br />
+              &#40; Source:
+              <a href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/">Smithsonian
+                Magazine</a>
+              &#41;
+            </p>
+          </details>
+        </aside>
+      </section>
+    </article>
+
+    <hr>
+
+    <article id="menu">
+      <h2>Our Menu</h2>
+      <section>
+        <table>
+          <caption>
+            Our Tacos
+          </caption>
+          <thead>
+            <tr>
+
+              <th scope="col">Tacos</th>
+              <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+              <th scope="col">Price</th>
+            </tr>
+
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="3">Crunchy</th>
+              <td>1</td>
+              <td>&dollar;1.50</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>&dollar;2.50</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>&dollar;3.25</td>
+            </tr>
+
+            <tr>
+              <th scope="row" rowspan="3">Soft</th>
+              <td>1</td>
+              <td>&dollar;2.00</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>&dollar;3.50</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>&dollar;4.50</td>
+            </tr>
+
+
+          <tfoot>
+            <tr>
+              <td colspan="3">Chips & Salsa &dollar;2</td>
+            </tr>
+          </tfoot>
+          </tbody>
+          </thead>
+        </table>
+      </section>
+
+      <section>
+        <br>
+        <p>
+          <a href="#">Back to Top</a>
+        </p>
+      </section>
+    </article>
+
+    <hr>
+  </main>
+</body>
+
+<footer>
+  <p>
+    Copyright &copy;
+    <a href="#about"><span id="current-year"></span> The Little Taco Shop</a> &gt;&gt;&gt;
+  </p>
+</footer>
+
+</html>
